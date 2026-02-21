@@ -11,3 +11,13 @@ def occurence(arr , target):
         if i == target:
             count += 1
         return count
+#max number
+def max_num(arr):
+    if not arr:
+        return None
+    
+    max = arr[0]
+    for num in arr:
+      if num > max:
+        max = num
+    return max
