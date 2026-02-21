@@ -31,3 +31,15 @@ def min_num(arr):
             min= num
     return min
 
+arr = list(map(int , input("Enter thhe numbers :").split()))
+
+print(arr)
+
+print("sorted array is :", sort(arr))
+
+target = int(input("Enter the number to count the occurence :"))
+print("Occurence of the number is :", occurence(arr , target))
+
+print("Max number is :" , max_num(arr))
+
+print("min number is :" , min_num(arr))
