@@ -21,3 +21,13 @@ def max_num(arr):
       if num > max:
         max = num
     return max
+#min number
+def min_num(arr):
+    if not arr:
+        return None
+    min = arr[0]
+    for num in arr:
+        if num < min:
+            min= num
+    return min
+
