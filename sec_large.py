@@ -9,7 +9,7 @@ def sec_large(arr):
             second_largest = largest
             largest = num
         
-        elif largest <num < second_largest:
+        elif num != largest and num > second_largest:
             second_largest = num
 
     return second_largest if second_largest != float('-inf') else None
