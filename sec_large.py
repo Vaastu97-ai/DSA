@@ -14,3 +14,7 @@ def sec_large(arr):
 
     return second_largest if second_largest != float('-inf') else None
 
+arr = list(map(int , input("Enter the numbers :").split()))
+
+print(arr)
+print("Second largest number is :" ,sec_large(arr))
