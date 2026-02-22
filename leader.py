@@ -12,3 +12,8 @@ def leader(arr):
     
     return result
 
+arr = list(map(int , input("Enter the numbers :").split()))
+
+print ("the entered array is :" , arr)
+
+print("The Leaders of teh array are:" , leader(arr))
